@@ -1,0 +1,23 @@
+@use './variables.module' as *;
+
+:root {
+    --primary-color: #{$primary-color};
+    --secondary-color: #{$secondary-color};
+    --accent-color: #{$accent-color};
+
+    --error-color: #{$error-color};
+    --info-color: #{$info-color};
+
+    --background-color: #{$background-color};
+    --secondary-background-color: #{$secondary-background-color};
+
+    --input-background-color: #{$input-bg-color};
+    --input-border-color: #{$input-border-color};
+    --input-border-color-hover: #{$input-border-color-hover};
+
+    --link-color: #{$link-color};
+    --header-color: #{$header-color};
+
+    --text-color: #{$text-color};
+    --secondary-text-color: #{$secondary-text-color};
+}
